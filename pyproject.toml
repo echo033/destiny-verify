@@ -1,5 +1,5 @@
 [project]
-name = "overflow-verif-bot"
+name = "destiny-verify"
 version = "1.0.0"
 description = "Bot Discord de vérification automatique avec détection IP et VPN"
 authors = [{ name = "sinxo" }]
