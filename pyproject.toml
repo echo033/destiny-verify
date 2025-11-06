@@ -1,0 +1,17 @@
+[project]
+name = "overflow-verif-bot"
+version = "1.0.0"
+description = "Bot Discord de vérification automatique avec détection IP et VPN"
+authors = [{ name = "sinxo" }]
+dependencies = [
+    "discord.py==2.3.2",
+    "aiohttp",
+    "python-dotenv",
+    "geoip2",
+    "requests"
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
