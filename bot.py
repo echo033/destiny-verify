@@ -32,7 +32,7 @@ load_dotenv()
 logging.info(f"✅ Fichier .env chargé. IPHub key présente: {bool(os.getenv('IPHUB_API_KEY'))}")
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-BASE_URL = os.getenv("BASE_URL", "https://wearying-unharmonious-reta.ngrok-free.dev") 
+BASE_URL = os.getenvBASE_URL = os.getenv("BASE_URL", "http://localhost:8080") 
 VPN_API_KEY = os.getenv("VPN_API_KEY", "")  
 WEB_PORT = int(os.getenv("PORT", "8080"))
 DB_PATH = os.getenv("DB_PATH", "verifications.db")
